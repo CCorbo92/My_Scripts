@@ -6,4 +6,4 @@
 #SBATCH --output=AutoDock
 #SBATCH -p rn-long
 
-bash ../run001.AutoDock4.system.prep.sh /gpfs/projects/rizzo/ccorbo/DOCK6_with_ambpdb/SB_2020_testset/clean.systems.all ./Tutorial.3.Score.csv
+bash ../run001.AutoDock4.system.prep.sh ../clean.systems.all ./Tutorial.3.Score.csv

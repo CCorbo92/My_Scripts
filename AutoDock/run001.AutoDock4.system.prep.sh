@@ -13,7 +13,7 @@ export new_dir=$2
 module load mgltools/1.5.6
 #This module generates both the grid and performs the actual molecular docking and is essential
 module load autodock/4.2.6
-export testset="/gpfs/projects/rizzo/ccorbo/DOCK6_with_ambpdb/SB_2020_testset"
+export testset="/gpfs/scratch/ccorbo/Benchmarking_and_Validation/CrossDocking/zzz.builds/zzz.master"
 cd ${new_dir}
 #This goes through the file containing all of the systems that are being tested given in the first arguement
 for SYSTEM in `  cat ${systems} `
@@ -29,11 +29,11 @@ do
      #This code takes from yuchzhou directory of the systems,so if this system isn't updated with the necessary systems and files then this code will likely not work
      #Solution to this issue, I'd recommend to change the location that the original mol2 is being copied from to solve this issue
      echo "Preparing Ligands"
-     /gpfs/software/mgltools/bin/prepare_ligand4.py -l ${testset}/${SYSTEM}/${SYSTEM}.lig.gast.mol2 -o ${SYSTEM}.lig.gast.pdbqt -C
+     /gpfs/software/mgltools/bin/prepare_ligand4.py -l ${testset}/${SYSTEM}.lig.moe.gast.mol2 -o ${SYSTEM}.lig.gast.pdbqt -C
      #/gpfs/software/mgltools/bin/prepare_ligand4.py -l ${testset}/${SYSTEM}/${SYSTEM}.lig.gast.mol2 -U 'nphs' -o ${SYSTEM}.lig.gast.pdbqt 
      #This converts the protein from mol2 to pdbqt in structure and the -C conserves the charges of the ligand
      echo "Prepare Receptor"
-     /gpfs/software/mgltools/bin/prepare_receptor4.py -r ${testset}/${SYSTEM}/zzz.autodockfiles/${SYSTEM}.rec.clean.mol2  -o ${SYSTEM}.rec.clean.pdbqt -C 
+     /gpfs/software/mgltools/bin/prepare_receptor4.py -r ${testset}/${SYSTEM}.rec.foramber.mol2  -o ${SYSTEM}.rec.clean.pdbqt -C 
      cd ..
 done
 #/gpfs/software/Anaconda3/bin/python /gpfs/projects/rizzo/yuchzhou/RCR/DOCK_testset/slaverty_autodock_runs/slaverty_autodock_Na_manually_11_12_19/Assigning_Ion_Charges_AutoDock4_v3.py ${systems} ${csv}
