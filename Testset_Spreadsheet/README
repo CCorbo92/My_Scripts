@@ -1,0 +1,12 @@
+As of now the spreadsheet will start off as a hand curated list of a Protein Name and subtype for each PDB code. The subtype will denote different orthologs or homologs
+See: "PDB_ProteinName.csv" for an example
+
+It is important to be consistent with the Protein Name spelling and capitilization. IE Neuraminidase and Sialidase can be names given to the same protein,
+but for this spreadsheet it is important to stick with one name for proteins which are intended to be familied. If in doubt Multiple Sequence Alignments
+can be performed to validate correct classifications. An MSA sequence similarity of ~30% at the very least is expected.
+###########################
+The next step will compute DOCK descriptors and rdkit descriptors for each molecule
+
+It is necessary to run a version of DOCK which has been compiled to be compatible with RDKit for this step
+###########################
+The next set of descriptors will require data accumulated from CrossDocking statistics.
