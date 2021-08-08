@@ -1,0 +1,4 @@
+Download the SMILES and INCHl file from https://drugcentral.org/download and transfer it to this directory (See smiles.tsv)
+
+   awk '{print $5}' smiles.tsv | grep -v "INN" >>Approved_Drug_Names.txt
+
