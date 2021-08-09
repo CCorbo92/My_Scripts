@@ -4,9 +4,25 @@ See: "PDB_ProteinName.csv" for an example
 It is important to be consistent with the Protein Name spelling and capitilization. IE Neuraminidase and Sialidase can be names given to the same protein,
 but for this spreadsheet it is important to stick with one name for proteins which are intended to be familied. If in doubt Multiple Sequence Alignments
 can be performed to validate correct classifications. An MSA sequence similarity of ~30% at the very least is expected.
+
+In each of these scripts be sure to set the path variables at the top appropriately
 ###########################
 The next step will compute DOCK descriptors and rdkit descriptors for each molecule
+
+   sbatch 001.submit.sh
+
+   002.descriptor_xtract.sh
 
 It is necessary to run a version of DOCK which has been compiled to be compatible with RDKit for this step
 ###########################
 The next set of descriptors will require data accumulated from CrossDocking statistics.
+
+If Alignments are not already available for crossdocking families and you wish to include them run 001.alignments.sh from the Crossdocking scripts 
+in Benchmarking and Validation.
+
+   003.crossdock_info.sh
+
+###########################
+The next step will determine which systems were not in Crossdocking so these spaces can be filled as blanks
+   
+   004.fill_in_crossdock.csv
