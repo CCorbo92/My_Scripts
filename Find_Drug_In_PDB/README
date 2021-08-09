@@ -2,3 +2,7 @@ Download the SMILES and INCHl file from https://drugcentral.org/download and tra
 
    awk '{print $5}' smiles.tsv | grep -v "INN" >>Approved_Drug_Names.txt
 
+Then run the script below which will print a csv of the Uniprot code of each confirmed mechanistic target for each drug. This will take about a half hour to run.:
+
+   001.access_page.sh 
+REMEMBER TO MAKE UNIQ
