@@ -1,0 +1,5 @@
+chris = run 7 min and rescoring
+run 9 for clustering
+
+
+steven = run 8 for the three phases. 

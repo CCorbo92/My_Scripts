@@ -1,0 +1,8 @@
+sort -u -n -t, -k2 Descriptors_${score}_${max_num}.csv >> Clusterheads_${score}_only.csv
+set file = "Clusterheads_${score}_only.csv"
+#Printing out the top 1000 clusterheads for each secondary score
+
+python ${scriptdir}/sorting_scores.py ${file} >> clusterheads_${score}.out
+grep -A1000 "Descriptor" clusterheads_${score}.out | tail -n1
+foreach second_score (Descriptor_Score: Continuous_Score: Pharmacophore_Score: Hungarian_Matching_Similarity_Score: Property_Volume_Score: desc_FPS_vdw_fps: desc_FPS_es_fps: Footprint_Similarity_Score: Total_Score:)
+end #End secondary scoring loop

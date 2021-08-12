@@ -362,8 +362,8 @@ Sys,Name ,Year_Approved
 1MES ,-- ,--
 1MET ,-- ,--
 1MLD ,-- ,--
-1MMV,tetrahydrobiopterin ,2007
-1MMW,tetrahydrobiopterin ,2007
+1MMV,-- ,--
+1MMW,-- ,--
 1MQ5 ,-- ,--
 1MQ6 ,-- ,--
 1MRG ,-- ,--
@@ -507,7 +507,7 @@ Sys,Name ,Year_Approved
 1QL7 ,-- ,--
 1QPE ,-- ,--
 1QPQ ,-- ,--
-1QW6,tetrahydrobiopterin ,2007
+1QW6 ,-- ,--
 1QXK ,-- ,--
 1R1H ,-- ,--
 1R33 ,-- ,--
@@ -676,7 +676,7 @@ Sys,Name ,Year_Approved
 1WC0 ,-- ,--
 1WC5 ,-- ,--
 1WM1 ,-- ,--
-1X70,Sitagliptin ,2006
+1X70,sitagliptin ,2006
 1X76 ,-- ,--
 1X78 ,-- ,--
 1X7B ,-- ,--
@@ -712,10 +712,10 @@ Sys,Name ,Year_Approved
 1XOT,vardenafil ,2003
 1XOW ,-- ,--
 1XOZ,tadalafil ,2003
-1XP0,roflumilast ,2011
+1XP0,vardenafil ,2003
 1XQ3 ,-- ,--
 1XQC ,-- ,--
-1Y0X,Levothyroxine ,2000
+1Y0X,levothyroxine ,2000
 1Y6B ,-- ,--
 1Y93 ,-- ,--
 1YDB ,-- ,--
@@ -917,7 +917,7 @@ Sys,Name ,Year_Approved
 2RA0 ,-- ,--
 2RF2 ,-- ,--
 2RGP ,-- ,--
-2RGU,Linagliptin ,2011
+2RGU,linagliptin ,2011
 2RKI ,-- ,--
 2SIM ,-- ,--
 2SRC ,-- ,--
@@ -929,7 +929,7 @@ Sys,Name ,Year_Approved
 2V3F ,-- ,--
 2VES ,-- ,--
 2VT4 ,-- ,--
-2W26,Rivaroxaban ,2011
+2W26,rivaroxaban ,2011
 2Y00,dobutamine ,1978
 2Y01,dobutamine ,1978
 2Y02 ,-- ,--
@@ -992,7 +992,7 @@ Sys,Name ,Year_Approved
 3CS9,nilotinib ,2007
 3D0E ,-- ,--
 3D4Q ,-- ,--
-3D90,Levonorgestrel ,1968
+3D90,levonorgestrel ,1968
 3D94 ,-- ,--
 3DFR,methotrexate ,1953
 3DLE ,-- ,--
@@ -1014,7 +1014,7 @@ Sys,Name ,Year_Approved
 3ET1 ,-- ,--
 3ET2 ,-- ,--
 3ET3 ,-- ,--
-3EYG,Tofacitinib ,2012
+3EYG,tofacitinib ,2012
 3F07 ,-- ,--
 3F15 ,-- ,--
 3F16 ,-- ,--
@@ -1086,7 +1086,7 @@ Sys,Name ,Year_Approved
 4FW3 ,-- ,--
 4FW4 ,-- ,--
 4FW6 ,-- ,--
-4IAQ,Dihydroergotamine ,1946
+4IAQ,dihydroergotamine ,1946
 4IS9 ,-- ,--
 4ISA ,-- ,--
 4J3D ,-- ,--
@@ -1095,10 +1095,10 @@ Sys,Name ,Year_Approved
 4MQY ,-- ,--
 4OKG ,-- ,--
 4OZE ,-- ,--
-4P6W,Mometasone ,1987
+4P6W,mometasone ,1987
 4PHV ,-- ,--
 4RSK ,-- ,--
-4S0V,Suvorexant ,2014
+4S0V,suvorexant ,2014
 4SGA ,-- ,--
 4SLI ,-- ,--
 4STD ,-- ,--
@@ -1106,14 +1106,14 @@ Sys,Name ,Year_Approved
 4TLN ,-- ,--
 4TMN ,-- ,--
 4TS1 ,-- ,--
-4TVJ,Olaparib ,2014
+4TVJ,olaparib ,2014
 4UPJ ,-- ,--
-4V2Z,Pomalidomide ,2013
-4WMZ,Fluconazole ,1990
-4XE0,Idelalisib ,2014
+4V2Z,pomalidomide ,2013
+4WMZ,fluconazole ,1990
+4XE0,idelalisib ,2014
 4XIA ,-- ,--
-4XP4,Cocaine ,--
-5AMH,Thalidomide ,1998
+4XP4,cocaine ,--
+5AMH,thalidomide ,1998
 5BIR ,-- ,--
 5DRO ,-- ,--
 5DRQ ,-- ,--
@@ -1122,7 +1122,7 @@ Sys,Name ,Year_Approved
 5GAL ,-- ,--
 5HVP ,-- ,--
 5ICD ,-- ,--
-5JMY,Sacubitril ,2015
+5JMY,sacubitril ,2015
 5N8C ,-- ,--
 5P21 ,-- ,--
 5SGA ,-- ,--
@@ -1134,25 +1134,25 @@ Sys,Name ,Year_Approved
 5UPG ,-- ,--
 5VWM ,-- ,--
 5XIA ,-- ,--
-5ZV2,Lenvatinib ,2015
+5ZV2,lenvatinib ,2015
 6CAX ,-- ,--
 6CPA ,-- ,--
 6DUI ,-- ,--
-6E8Q,Posaconazole ,2006
+6E8Q,posaconazole ,2006
 6ENL ,-- ,--
-6HLO,Aprepitant ,2003
+6HLO,aprepitant ,2003
 6IH0 ,-- ,--
 6MO4 ,-- ,--
 6MOD ,-- ,--
 6MOO ,-- ,--
-6NNC,Pemetrexed ,2004
+6NNC,pemetrexed ,2004
 6STD ,-- ,--
 6TIM ,-- ,--
 6TMN ,-- ,--
-6VNX,Binimetinib ,2018
+6VNX,binimetinib ,2018
 7CPA ,-- ,--
 7EST ,-- ,--
-7JUR,Trametinib ,2013
+7JUR,trametinib ,2013
 7STD ,-- ,--
 7TIM ,-- ,--
 7UPJ ,-- ,--
