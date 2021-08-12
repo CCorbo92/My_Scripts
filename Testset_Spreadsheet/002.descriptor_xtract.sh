@@ -29,3 +29,4 @@ smile=`grep "SMILES" ${testset}/${system}/${system}.lig.descriptors_scored.mol2 
 echo $system "," $mw "," $rb "," $fch "," $hba "," $hbd "," $sc "," $logp "," $tpsa "," $sa "," $qed "," $esol "," $pain "," $smile >> Descriptors.csv
 
 done
+sort -n Descriptors.csv >> Descriptors_sort.csv

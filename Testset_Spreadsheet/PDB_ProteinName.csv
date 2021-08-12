@@ -263,7 +263,6 @@ System,Protein_Type,Subtype
 1IKW,HIV_Reverse_Transcriptase,--
 1INF,Neuraminidase,B
 1INW,Neuraminidase,A
-1ITU,Dipeptidase,--
 1ITV,MMP,9
 1IVB,Neuraminidase,B
 1IVF,Neuraminidase,A
@@ -732,7 +731,6 @@ System,Protein_Type,Subtype
 1YDB,Carbonic_Anhydrase,--
 1YDR,cAMP_Dependent_Kinase,--
 1YGC,Factor_VII,--
-1YHC,LpxC,Aquifex
 1YIN,Estrogen_Receptor,a
 1YPE,Thrombin,--
 1YQY,LF_Metalloprotease,--

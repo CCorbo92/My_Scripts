@@ -1,4 +1,4 @@
-Sys,Name ,--
+Sys,Name ,Year_Approved
 1A28 ,-- ,--
 1A30 ,-- ,--
 1A4G,zanamivir ,1999
