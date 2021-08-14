@@ -6,4 +6,5 @@
 #SBATCH --output=run.010.out
 #SBATCH -p rn-long-40core
 
-tcsh run.010.unique_and_cluster.csh
+tcsh run.010.snippet_test.csh
+#tcsh run.010.unique_and_cluster.csh

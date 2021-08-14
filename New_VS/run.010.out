@@ -1,4 +1,88 @@
-num_chunks = 12
-Submitting to queue...
-Checking for duplicate ZINC names...
-Running best first clustering
+Descriptor_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+Continuous_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+Pharmacophore_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+Hungarian_Matching_Similarity_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+Property_Volume_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+desc_FPS_vdw_fps:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+desc_FPS_es_fps:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
+Footprint_Similarity_Score:
+Combining DOCK / RDKIT descriptors and Cluster Info...
+Secondary  Descriptor_Score:
+Secondary  Continuous_Score:
+Secondary  Pharmacophore_Score:
+Secondary  Hungarian_Matching_Similarity_Score:
+Secondary  Property_Volume_Score:
+Secondary  desc_FPS_vdw_fps:
+Secondary  desc_FPS_es_fps:
+Secondary  Footprint_Similarity_Score:
+Job finished
