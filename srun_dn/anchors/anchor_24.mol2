@@ -1,0 +1,23 @@
+########## TYPE:               Sidechain
+########## FREQ:               511922
+########## CONN_PTS:           1
+########## 
+@<TRIPOS>MOLECULE
+ZINC36293766
+ 4 3 1 0 0
+SMALL
+USER_CHARGES
+sid.23
+
+@<TRIPOS>ATOM
+      1 Du1         0.0000    0.0000    0.0000 Du      1  <0>         0.0000
+      2 C3          0.7053   -0.4860   -1.2399 C.2     1  <0>         0.4974
+      3 O1          1.9100   -0.6730   -1.2222 O.co2   1  <0>        -0.6849
+      4 O2          0.0714   -0.6922   -2.2607 O.co2   1  <0>        -0.6916
+@<TRIPOS>BOND
+     1     1     2    1
+     2     2     3    2
+     3     2     4    1
+@<TRIPOS>SUBSTRUCTURE
+     1 <0>         1 TEMP              0 ****  ****    0 ROOT
+

@@ -1,0 +1,23 @@
+########## TYPE:               Linker
+########## FREQ:               8075317
+########## CONN_PTS:           2
+########## 
+@<TRIPOS>MOLECULE
+ZINC37554799
+ 4 3 1 0 0
+SMALL
+USER_CHARGES
+lnk.1
+
+@<TRIPOS>ATOM
+      1 Du1         0.0000    0.0000    0.0000 Du      1  <0>         0.0000
+      2 C14         0.9555   -0.3917    0.8660 C.2     1  <0>         0.5648
+      3 O1          1.8007   -1.1927    0.5171 O.2     1  <0>        -0.5239
+      4 Du2         0.9756    0.1525    2.2399 Du      1  <0>         0.0000
+@<TRIPOS>BOND
+     1     1     2   am
+     2     2     3    2
+     3     2     4    1
+@<TRIPOS>SUBSTRUCTURE
+     1 <0>         1 TEMP              0 ****  ****    0 ROOT
+

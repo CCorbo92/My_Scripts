@@ -1,0 +1,23 @@
+########## TYPE:               Scaffold
+########## FREQ:               418241
+########## CONN_PTS:           3
+########## 
+@<TRIPOS>MOLECULE
+ZINC05631744
+ 4 3 1 0 0
+SMALL
+USER_CHARGES
+scf.26
+
+@<TRIPOS>ATOM
+      1 Du1         0.0000    0.0000    0.0000 Du      1  <0>         0.0000
+      2 N1         -0.0760   -1.2184   -0.5711 N.am    1  <0>        -0.5887
+      3 Du2        -0.7393   -2.3179    0.1341 Du      1  <0>         0.0000
+      4 Du3         0.5048   -1.4433   -1.8972 Du      1  <0>         0.0000
+@<TRIPOS>BOND
+     1     1     2   am
+     2     2     3    1
+     3     2     4    1
+@<TRIPOS>SUBSTRUCTURE
+     1 <0>         1 TEMP              0 ****  ****    0 ROOT
+
