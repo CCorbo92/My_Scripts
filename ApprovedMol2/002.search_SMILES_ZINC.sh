@@ -1,4 +1,12 @@
+# This script searches html formatted SMILES and fetches the compressed mol2 of any exact matches. It will only pull the first protomer or enantiomer
+# This script will need to be modified to pull multiple enantiomers
+# It may be wise to flag all molecules with stereocenters for further inspection 
+# Written by: Christopher Corbo
+# Affiliation: Rizzo Lab, Stony Brook University
+# Last Edit Date: 09/2021
+# Last Edit by: Christopher Corbo
 i="1"
+mkdir ZINC
 while read -r name smile html;
 do
 echo ${i} 
