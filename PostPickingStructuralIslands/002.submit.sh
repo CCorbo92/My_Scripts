@@ -1,9 +1,8 @@
 #!/bin/sh 
-#SBATCH --partition=long-24core
+#SBATCH --partition=rn-long
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=20
-#SBATCH --job-name=Spike
+#SBATCH --job-name=hmscalc
 #SBATCH --output=testset.out
-
-./Hungarian_Cluster.sh
+./002.pairwise_hms.sh
