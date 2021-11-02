@@ -1,4 +1,9 @@
 #!/usr/bin/sh
+# This script will do a pairwise calculation on descriptor score and check for a threshold to see if they can be clustered
+# Written by: Christopher Corbo
+# Affiliation: Rizzo Lab, Stony Brook University
+# Last Edit Date: 11/2021
+# Last Edit by: Christopher Corbo
 rm PreclusterList.txt
 
 list_of_fam="viable_sorted.txt"
@@ -72,6 +77,7 @@ EOF
 dock6 -i rescore.in 
 
 desc=`grep  "Descriptor" ${ref}_${comp}.output_scored.mol2 |awk '{print $3}'`
+#This is where the threshold of 5.4 is specified
 val=`echo $desc'< -5.4' | bc -l `
 if [ "$val" -eq "1" ]; then
 
