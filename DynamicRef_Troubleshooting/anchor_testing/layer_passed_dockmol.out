@@ -1,0 +1,33 @@
+
+
+
+--------------------------------------
+DOCK v6.9
+
+Released November 2018
+Copyright UCSF
+--------------------------------------
+
+
+Conformational Sampling Parameters
+------------------------------------------------------------------------------------------
+conformer_search_type                                        denovo
+
+De Novo Build Parameters
+------------------------------------------------------------------------------------------
+dn_fraglib_scaffold_file                                     ./fraglib/fraglib_scaffold.mol2
+dn_fraglib_linker_file                                       ./fraglib/fraglib_linker.mol2
+dn_fraglib_sidechain_file                                    ./fraglib/fraglib_sidechain.mol2
+dn_user_specified_anchor                                     yes
+dn_fraglib_anchor_file                                       /gpfs/projects/rizzo/ccorbo/Testing_Grounds/srun_dn/anchors/anchor_${i}.mol2
+dn_torenv_table                                              ./fraglib/fraglib_torenv.dat
+dn_use_roulette                                              no
+dn_name_identifier                                           denovo
+dn_sampling_method                                           rand
+dn_num_random_picks                                          35
+dn_pruning_conformer_score_cutoff                            100.0
+dn_pruning_conformer_score_scaling_factor                    1.0
+dn_pruning_clustering_cutoff                                 100.0
+use_dynamic_reference                                        yes
+dynamic_ref_filename                                         ./1O86/1O86.lig.am1bcc.mol2
+Error: Could not open ./1O86/1O86.lig.am1bcc.mol2
