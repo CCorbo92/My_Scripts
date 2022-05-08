@@ -1,5 +1,5 @@
 cd pdb_stats
-res_thresh=3.00
+res_thresh=3.25
 rfree_thresh=0.28
 for sys in `cat ../clean.systems.all`
 do
