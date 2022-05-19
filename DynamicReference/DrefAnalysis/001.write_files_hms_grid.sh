@@ -30,7 +30,7 @@ dn_mol_wt_std_dev                                            35.0
 dn_constraint_rot_bon                                        20
 dn_constraint_formal_charge                                  2.0
 dn_heur_unmatched_num                                        1
-dn_heur_matched_rmsd                                         2.0
+dn_heur_matched_rmsd                                         0.2
 dn_unique_anchors                                            1
 dn_max_grow_layers                                           9
 dn_max_root_size                                             25
@@ -78,7 +78,7 @@ descriptor_use_gist                                          no
 descriptor_use_dock3.5                                       no
 descriptor_grid_score_rep_rad_scale                          1
 descriptor_grid_score_vdw_scale                              1
-descriptor_grid_score_es_scale                               0.9
+descriptor_grid_score_es_scale                               1
 descriptor_grid_score_grid_prefix                            /gpfs/projects/rizzo/ccorbo/Building_Stuff/DOCK6_with_ambpdb/SB_2020_testset/${ref_sys}/${ref_sys}.rec
 descriptor_hms_score_ref_filename                            /gpfs/projects/rizzo/ccorbo/Building_Stuff/DOCK6_with_ambpdb/SB_2020_testset/${ref_sys}/${ref_sys}.lig.am1bcc.mol2
 descriptor_hms_score_matching_coeff                          -5
